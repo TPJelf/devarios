@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.18.2
+    hooks:
+      - id: commitizen
