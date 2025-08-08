@@ -1,0 +1,21 @@
+{% extends "news/base.html" %}
+{% block content %}
+  <h2>Fuentes activas</h2>
+  <div class="row">
+    {% for source in sources %}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card bg-info text-dark h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ source.name }}</h5>
+            <p class="card-text">{{ source.rss_url }}</p>
+            <p class="card-text">
+              <small class="text-muted">{{ source.country }}</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p>No hay fuentes activas registradas.</p>
+    {% endfor %}
+  </div>
+{% endblock content %}
