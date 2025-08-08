@@ -1,4 +1,4 @@
-# Diarios
+# Devarios
 
 A Django project scaffolded with a Python virtual environment (venv).
 
@@ -20,7 +20,7 @@ A Django project scaffolded with a Python virtual environment (venv).
    ```
 
 ## Project Structure
-- `Diarios/` - Main Django project folder
+- `Devarios/` - Main Django project folder
 - `manage.py` - Django management script
 - `requirements.txt` - Python dependencies
 - `venv/` - Virtual environment (not committed)
